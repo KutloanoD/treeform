@@ -248,6 +248,7 @@ console.log(NobelPrizes.length);
 
 let total = 0;  // total laureates
 
+
 for (let prize of NobelPrizes) {  //
     total += prize.laureates.length;
 }
